@@ -1,0 +1,2 @@
+﻿the project use Xamarin android to build
+api use: https://currencylayer.com/quickstart
