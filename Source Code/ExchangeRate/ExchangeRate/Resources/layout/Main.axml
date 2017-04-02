@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:p1="http://schemas.android.com/apk/res/android"
+    p1:orientation="vertical"
+    p1:layout_width="match_parent"
+    p1:layout_height="match_parent"
+    p1:id="@+id/linearLayout1"
+    p1:minWidth="25px"
+    p1:minHeight="25px"
+    p1:background="@color/white">
+    <EditText
+        p1:inputType="numberSigned"
+        p1:layout_width="match_parent"
+        p1:textColor="@android:color/black"
+        p1:layout_height="wrap_content"
+        p1:id="@+id/numFrom"
+        p1:gravity="center"
+        p1:text="10000" />
+    <TextView
+        p1:textAppearance="?android:attr/textAppearanceLarge"
+        p1:layout_width="match_parent"
+        p1:layout_height="wrap_content"
+        p1:id="@+id/textView1"
+        p1:text="VND"
+        p1:textColor="@android:color/holo_blue_dark"
+        p1:gravity="center" />
+    <Button
+        p1:text="Change"
+        p1:layout_width="match_parent"
+        p1:layout_height="wrap_content"
+        p1:id="@+id/btnChange"
+        p1:textColor="@android:color/white"
+        p1:background="@android:color/holo_orange_dark"
+        p1:clickable="true" />
+    <TextView
+        p1:text="USD"
+        p1:textAppearance="?android:attr/textAppearanceLarge"
+        p1:layout_width="match_parent"
+        p1:layout_height="wrap_content"
+        p1:textColor="@android:color/black"
+        p1:id="@+id/usd" />
+    <TextView
+        p1:text="EUR"
+        p1:textAppearance="?android:attr/textAppearanceLarge"
+        p1:layout_width="match_parent"
+        p1:layout_height="wrap_content"
+        p1:textColor="@android:color/black"
+        p1:id="@+id/eur" />
+    <TextView
+        p1:text="AUD"
+        p1:textAppearance="?android:attr/textAppearanceLarge"
+        p1:layout_width="match_parent"
+        p1:layout_height="wrap_content"
+        p1:textColor="@android:color/black"
+        p1:id="@+id/aud" />
+    <TextView
+        p1:text="JPY"
+        p1:textAppearance="?android:attr/textAppearanceLarge"
+        p1:layout_width="match_parent"
+        p1:layout_height="wrap_content"
+        p1:id="@+id/jpy"
+        p1:textColor="@android:color/black" />
+    <ScrollView
+        p1:minWidth="25px"
+        p1:minHeight="25px"
+        p1:layout_width="match_parent"
+        p1:layout_height="wrap_content"
+        p1:id="@+id/scrollView1">
+        <TextView
+            p1:text="Exchange rate other"
+            p1:textAppearance="?android:attr/textAppearanceLarge"
+            p1:layout_width="match_parent"
+            p1:layout_height="match_parent"
+            p1:id="@+id/rate"
+            p1:textColor="@android:color/holo_blue_dark" />
+    </ScrollView>
+</LinearLayout>
